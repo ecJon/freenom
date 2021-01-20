@@ -4,9 +4,9 @@
 [![Build Status](https://img.shields.io/badge/build-passed-brightgreen?style=for-the-badge)](https://scrutinizer-ci.com/g/luolongfei/freenom/build-status/master)
 [![Php Version](https://img.shields.io/badge/php-%3E=7.2-brightgreen.svg?style=for-the-badge)](https://secure.php.net/)
 [![Scrutinizer Code Quality](https://img.shields.io/badge/scrutinizer-9.31-brightgreen?style=for-the-badge)](https://scrutinizer-ci.com/g/luolongfei/freenom/?branch=master)
-[![MIT License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=for-the-badge)](https://github.com/luolongfei/freenom/blob/master/LICENSE)
+[![MIT License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=for-the-badge)](https://github.com/ecJon/freenom/blob/master/LICENSE)
 
-Documentation: English version | [中文版](https://github.com/luolongfei/freenom)
+Documentation: English version | [中文版](https://github.com/ecJon/freenom)
 </div>
 
 [📃  Why write this script](#--Why-write-this-script)
@@ -24,8 +24,6 @@ Documentation: English version | [中文版](https://github.com/luolongfei/freen
 [🎈  Add scheduled task](#--Add-scheduled-task)
 
 [☕  Verification](#--Verification)
-
-[❤  Donate](#--Donate)
 
 [🌚  Author](#--Author)
 
@@ -89,7 +87,7 @@ $ mkdir -p /data/wwwroot/freenom
 $ cd /data/wwwroot/freenom
 
 # clone the repository source
-$ git clone https://github.com/luolongfei/freenom.git ./
+$ git clone https://github.com/ecJon/freenom.git ./
 ```
 
 #### Configuration process
@@ -174,19 +172,13 @@ $ cd /data/wwwroot/freenom/ && php run
 ```
 If nothing else, you will receive an email about the domain name.
 
-If you encounter any problems or bugs, please mention [issues](https://github.com/luolongfei/freenom/issues). If freenom changes the algorithm and causes this project to fail,
-Please mention [issues](https://github.com/luolongfei/freenom/issues) to inform me that I will fix it in time and maintain this project for a long time. Welcome star ~
-
-### ❤  Donate
-
-#### PayPal: [https://www.paypal.me/mybsdc](https://www.paypal.me/mybsdc)
-> Every time you spend money, you're casting a vote for the kind of world you want .-- Anna Lappe
-
-![Every time you spend your money, you are voting for the world you want. ](https://s2.ax1x.com/2020/01/31/13P8cF.jpg)
+If you encounter any problems or bugs, please mention [issues](https://github.com/ecJon/freenom/issues). If freenom changes the algorithm and causes this project to fail,
+Please mention [issues](https://github.com/ecJon/freenom/issues) to inform me that I will fix it in time and maintain this project for a long time. Welcome star ~
 
 ### 🌚  Author
 - Main program and framework: [@luolongfei](https://github.com/luolongfei)
 - English document: [@肖阿姨](#)
+- Modification: [@ecJon](https://github.com/ecJon)
 
 ### 🎉  Acknowledgements
 - [PHPMailer](https://github.com/PHPMailer/PHPMailer/) (Mail sending function depends on this library)
