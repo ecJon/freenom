@@ -80,7 +80,7 @@ jobs:
     
     - name: Push Code
       run: |
-        cd ~/ibm-cf
+        cd ~/freenom
         date +%s > timestamp
         git add timestamp
         git commit -m "auto commit"
